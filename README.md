@@ -1,30 +1,50 @@
-#Guess The Number Game Using Python Language
+# Project On Managing The Organisation Records Using Python,MySql
 
-In This Project,Random numbers will be generated with the help of random module.
-**NOTE:** Please Before Running This Program Run The 0th Choice in order to Run The Program Smoothly.Thank You.
+In This Project, One can create/add/delete databases,tables,columns respectively(On Local Host only).
 
-###Importing Random Module
+**NOTE:** Please Before Running This Program Ensure You Have Mysql Database Server on your pc.Thank You.
+
+### pip command to install mysql connector
 ```
-import random
+pip install mysql-connector
 ```
-The Choices Available in Program Are:-
----
-Number Guessing Game
 
- CHOICES:
-0.NOTE: Please Run This Choice Only Once On The System(It will Generate Score=0)
-1.Guess A Number Between 0-100
-2.Guess A Number Between Your Choice Of Range
-3.ScoreCard
-4.To Exit
+### importing mysql connector in program
+```
+import mysql.connector as m
+```
 
-Enter your choice 0/1/2/3/4: 
+## The Choices Available in Program Are:-
+
 ---
 
-**Please Ensure That you should run 0 choice for only once before entering any other choice.**
-**New Feature:** You Can Reset Your Score In The ScoreCard Options.
-This Game is More Optimized From My Previous Number Guessing Game In C language.
-Hope You Will Like More Optimized and Unique Hints,and Scorecard Choice Too.
-**Thanks For Playing This Game**
+        >>>PROJECT FOR MANAGING THE ORGANISATION RECORDS<<<
+                           
+                           CHOICES                   
+    1. To create a new separate database for office,teachers,etc.
 
-Hope You Like This Game,If Have Any Suggestions Discuss in The Discussions Tab.
+    2. To create a new table in any database
+
+    3. To add details of student in database
+
+    4. To check the Databases/Records in Table
+
+    5. To delete student's record
+
+    6. To update student's record
+
+    7. To drop a database
+
+    8. To delete a table from any database
+
+    9. To Add/Delete a column
+
+    10. To Exit
+
+---
+
+**Requirements:** Python IDLE 3.x, Mysql 7.x or greater, RAM 4GB or up, Processor Quad Core and up.
+
+**Thanks For Using The Program.**
+
+Hope You Like This Program,If Have Any Suggestions Discuss in The Discussions Tab.
